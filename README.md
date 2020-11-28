@@ -1,4 +1,4 @@
-# Active Record Associations Introduction: Playlister
+ # Active Record Associations Introduction: Playlister
 
 ## Objectives
 
@@ -484,7 +484,7 @@ This time, we'll just use `create` directly, which would be the same as running
 [14] pry(main)> pop.songs << rolling_in_the_deep
 => [#<Song:0x007fc75bb4d1e0 id: 4, name: "Rolling in the Deep", artist_id: 1, genre_id: 1>]
 [15] pry(main)> pop.songs
-=> [#<Song:0x007fc75bb4d1e0 id: 4, name: "Rolling in the Deep", artist_id: 1, genre_id: 1>]
+=> [#<Song:0x007fc75bb4d1e0 id: 4, name:"Rolling in the Deep", artist_id: 1, genre_id: 1>]
 [16] pry(main)> rolling_in_the_deep.genre
 => #<Genre:0x007fa34338d270 id: 1, name: "pop">
 ```
